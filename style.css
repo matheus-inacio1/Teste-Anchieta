@@ -13,7 +13,7 @@
     
     
   }
-/*Estilo Mobile*/
+/*Estilo Monitor*/
 .mobile-menu{
     display: none;
    }
@@ -338,8 +338,8 @@ font-family: under;
 
 
 
-  @media (max-width: 350px){
-   /*estilo monitor*/ 
+  @media (max-width: 500px){
+   /*estilo mobile*/ 
 
    
    
@@ -370,6 +370,7 @@ font-family: under;
     margin-inline: 30px;
 background: #ffffff;
 overflow-x: hidden;
+
 }
 
 header {
@@ -380,6 +381,7 @@ header {
 .mobile-menu {
     cursor: pointer;
     display: block;
+    
   }
   
   .mobile-menu div {
@@ -388,6 +390,7 @@ header {
     background: #070505;
     margin: 8px;
     transition: 0.3s;
+    
   }
   
   
@@ -408,7 +411,7 @@ header {
 .logo {
     padding:0px 60px 0px 0px;
       display: flex;
-  
+ 
   }
 .nav-list{
     position: absolute;
@@ -444,6 +447,7 @@ opacity: 0;
 
 #container-2{
     display: none;
+    
 }
 
 .box{
