@@ -338,7 +338,7 @@ font-family: under;
 
 
 
-  @media (min-width: 310px){
+  @media (max-width: 350px){
    /*estilo monitor*/ 
 
    
