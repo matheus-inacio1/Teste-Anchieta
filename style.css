@@ -365,13 +365,7 @@ font-family: under;
     .bx-03-mobile{
         display: block;
     }
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    
-    
-    }
+  
    body{
     margin-inline: 30px;
 background: #ffffff;
@@ -483,9 +477,10 @@ opacity: 0;
     
     }
     
-    .text-box3mobile{
+    .text-box3{
     font-family: under;
     color:  hsl(236, 13%, 42%);
+    font-size:20px ;
     
     
     }
