@@ -365,7 +365,13 @@ font-family: under;
     .bx-03-mobile{
         display: block;
     }
-
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    
+    }
    body{
     margin-inline: 30px;
 background: #ffffff;
