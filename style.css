@@ -14,258 +14,11 @@
     
   }
 /*Estilo Mobile*/
-body{
-    margin-inline: 30px;
-background: #ffffff;
-}
-
-header {
-    height: 80px;
-    
-}
-
-.banner{
-    
-    width: 100%;
-    height: 250px;
-    
-
-}
-
-.logo {
-    padding:0px 60px 0px 0px;
-      display: flex;
-  
-  }
-
-  .nav-list{
+.mobile-menu{
     display: none;
-  }
-
-  nav{
-    text-decoration: none;
-    display: flex;
-    justify-content:space-between;
-    margin: 70px 0px 0px 0px;
-    
-    }
-
-
-
-#container-2{
-    display: none;
-}
-
-.box{
-    display: none;
-}
-.box2{
-    display: none;
-
-
-}
-.box3{
-    display: none;
-}
-.box2-mobile{
+   }
    
-    margin-top: 10px;
-
-}
-.text-1mobile{
-    font-size: 30px;
-    font-family: under;
-    font-weight: 800;
-    
-
-
-}
-
-.box3-mobile{
-  
-    margin-top: 10px;
-    
-    }
-    
-    .text-box3mobile{
-    font-family: under;
-    color:  hsl(236, 13%, 42%);
-    
-    
-    }
-
-
-    #read-mobile{
-        width:160px ;
-        height:40px ;
-        background:hsl(5, 85%, 63%) ;
-        border: none;
-        margin-top:20px ;
-        color: #ffffff;
-    font-weight: 800;
-    font-size: 12px;
-    font-family: under;
-    letter-spacing:4px ;
-    }
-    .box-mobile{
-        width: 100%;
-        height:450px ;
-        background:hsl(240, 100%, 5%); 
-        margin-top:40px ;
-        
-        }
-
-        .new-mobile {
-            color: hsl(35, 77%, 62%);
-            padding: 12px;
-            font-family: under;
-        }
-        
-
-    
-#title-mobile{
-
-    font-size: 15px;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: under;
-    padding: 12px;
-    }
-    #text-box-mobile{
-        padding: 12px;
-         font-size: 15px;
-         color: hsl(236, 13%, 42%); 
-       font-family: under;
-       
-       }
-       hr{
-        width:85% ;
-       margin: 20px;
-      
-    }
-
-    .bx-01-mobile{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            height: 160px;  
-           margin-top: 20px;  
-
-    }
    
-    .retro{
-        height:120px;
-        width:100px;
-        
-        
-        }
-       
-        
-        #h1-box-mobile{
-           display: grid;
-            font-weight: 800;
-            color: hsl(233, 8%, 79%);
-            padding-bottom: 2px;
-            font-family: under;
-            font-size: 20px;
-          
-            }
-        
-        
-        #h2-box{
-        font-weight: 700;
-        font-size:12px;
-         font-family: under;
-         margin-top:6px ; 
-              
-        }
-        .link{
-            text-decoration: none;
-            color: #070505;
-            
-            } 
-            #p-box{
-                font-size: 10px;
-                margin-top: 6px;
-                line-height: 20px;
-                color:hsl(236, 13%, 42%) ;
-                font-family: under;
-                    
-                }
-
-    .bx-02-mobile{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: 160px;  
-         margin-top: 10px;    
-    
-    }
-    
-    .laptops{
-        height:120px;
-        width:100px;
-        
-        }  
-        
-        
-        .bx-03-mobile{  
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            height: 160px;  
-             margin-top: 10px;
-            
-        }
-            .growth{
-                height:120px;
-        width:100px;
-           
-                
-                }
-            
-            
-            .h1-box-mobile{
-                display: grid;
-                font-weight: 800;
-                color: hsl(233, 8%, 79%);
-                padding-bottom: 2px;
-                font-family: under;
-                font-size: 20px; 
-                }
-            
-            
-            .h2-box{
-                font-weight: 700;
-                font-size:12px;
-                 font-family: under;
-                 margin-top:6px ;      
-            }
-            .p-box{
-                font-size: 10px;
-                margin-top: 6px;
-                line-height: 20px;
-                color:hsl(236, 13%, 42%) ;
-                font-family: under;
-                    
-                }
-    
-
-  
- 
-
-
-
-  @media (min-width: 600px){
-   /*estilo monitor*/ 
-    .box{
-        display: block;
-    }
-    .box2{
-        display: block;
-    
-    
-    }
-    .box3{
-        display: block;
-    }
     .box2-mobile{
         display: none;
     }
@@ -288,7 +41,6 @@ header {
         display: none;
     }
   body{
-    
     margin-inline: 180px;
 }
  
@@ -579,8 +331,337 @@ font-family: under;
         
     }
 
+    
+
+  
+ 
+
+
+
+  @media (max-width: 600px){
+   /*estilo monitor*/ 
+
+   
+   
+    
+    .box2-mobile{
+        display: block;
+    }
+    .box3-mobile{
+        display: block;
+    }
+    #read-mobile{
+        display: block;
+    }
+    .box-mobile{
+        display: block;
+    }
+    .bx-01-mobile{
+        display: block;
+    }
+    .bx-02-mobile{
+        display: block;
+    }
+    .bx-03-mobile{
+        display: block;
+    }
+
+   body{
+    margin-inline: 30px;
+background: #ffffff;
+overflow-x: hidden;
+}
+
+header {
+    height: 80px;
+    
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: block;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #070505;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  
+  #container{
+    height: 250px;
+    width: 100%;
+    
+}
+
+
+.banner{
+    width: 238px;
+    height: 248px;
+    
+
+}
+
+.logo {
+    padding:0px 60px 0px 0px;
+      display: flex;
+  
+  }
+.nav-list{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+transform: translateX(100%);
+transition: transform 0.3s ease-in;
+margin-top: 50px;
+    
+}
+
+.nav-list.active {
+    transform: translateX(0);
+  }
+.nav-list li{
+margin-left: 0;
+opacity: 0;
+
+
+}
+
+ 
+
+
+
+
+
+#container-2{
+    display: none;
+}
+
+.box{
+    display: none;
+}
+.box2{
+    display: none;
+
+
+}
+.box3{
+    display: none;
+}
+.box2-mobile{
+   
+    margin-top: 10px;
+
+}
+.text-1mobile{
+    font-size: 30px;
+    font-family: under;
+    font-weight: 800;
+    
+
+
+}
+
+.box3-mobile{
+  
+    margin-top: 10px;
+    
+    }
+    
+    .text-box3mobile{
+    font-family: under;
+    color:  hsl(236, 13%, 42%);
+    
+    
+    }
+
+
+    #read-mobile{
+        width:160px ;
+        height:40px ;
+        background:hsl(5, 85%, 63%) ;
+        border: none;
+        margin-top:20px ;
+        color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: under;
+    letter-spacing:4px ;
+    }
+    .box-mobile{
+        width: 100%;
+        height:450px ;
+        background:hsl(240, 100%, 5%); 
+        margin-top:40px ;
+        
+        }
+
+        .new-mobile {
+            color: hsl(35, 77%, 62%);
+            padding: 12px;
+            font-family: under;
+        }
+        
+
+    
+#title-mobile{
+
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: under;
+    padding: 12px;
+    }
+    #text-box-mobile{
+        padding: 12px;
+         font-size: 15px;
+         color: hsl(236, 13%, 42%); 
+       font-family: under;
+       
+       }
+       hr{
+        width:85% ;
+       margin: 20px;
+      
+    }
+
+    .bx-01-mobile{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 160px;  
+           margin-top: 20px;  
+
+    }
+   
+    .retro{
+        height:120px;
+        width:100px;
+        
+        
+        }
+       
+        
+        #h1-box-mobile{
+           display: grid;
+            font-weight: 800;
+            color: hsl(233, 8%, 79%);
+            padding-bottom: 2px;
+            font-family: under;
+            font-size: 20px;
+          
+            }
+        
+        
+        #h2-box{
+        font-weight: 700;
+        font-size:12px;
+         font-family: under;
+         margin-top:6px ; 
+              
+        }
+        .link{
+            text-decoration: none;
+            color: #070505;
+            
+            } 
+            #p-box{
+                font-size: 10px;
+                margin-top: 6px;
+                line-height: 20px;
+                color:hsl(236, 13%, 42%) ;
+                font-family: under;
+                    
+                }
+
+    .bx-02-mobile{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 160px;  
+         margin-top: 10px;    
+    
+    }
+    
+    .laptops-mobile{
+        height:120px;
+        width:100px;
+        
+        }  
+        
+        
+        .bx-03-mobile{  
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 160px;  
+             margin-top: 10px;
+            
+        }
+            .growth-mobile{
+                height:120px;
+        width:100px;
+           
+                
+                }
+            
+            
+            .h1-box-mobile{
+                display: grid;
+                font-weight: 800;
+                color: hsl(233, 8%, 79%);
+                padding-bottom: 2px;
+                font-family: under;
+                font-size: 20px; 
+                }
+            
+            
+            .h2-box{
+                font-weight: 700;
+                font-size:12px;
+                 font-family: under;
+                 margin-top:6px ;      
+            }
+            .p-box{
+                font-size: 10px;
+                margin-top: 6px;
+                line-height: 20px;
+                color:hsl(236, 13%, 42%) ;
+                font-family: under;
+                    
+                }
+
  
 }
+ 
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);}
 
     
 
